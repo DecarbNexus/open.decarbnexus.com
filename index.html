@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DecarbNexus Open Data Portal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>DecarbNexus Open Data Portal</h1>
+      <p class="subtitle">
+        Interactive visualizations and datasets for climate action and decarbonization analysis
+      </p>
+    </header>
+
+    <main class="card-container">
+      <article class="card">
+        <div class="card-header">
+          <h2>USEEIO Sector Disaggregation</h2>
+          <span class="badge">Scope 3 Analysis</span>
+        </div>
+        <p class="card-description">
+          Explore Scope 3 emissions by USEEIO sector, economic tier, and scope. 
+          Disaggregate supply chain emissions to identify upstream and downstream contributors.
+        </p>
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">403</span>
+            <span class="stat-label">USEEIO Sectors</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">Multi-tier</span>
+            <span class="stat-label">Supply Chain</span>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="useeio_sectors_disaggregation/" class="btn-primary">
+            Launch Visualization →
+          </a>
+          <a href="https://github.com/DecarbNexus/useeio_sectors_disaggregation" class="btn-secondary" target="_blank" rel="noopener">
+            View on GitHub
+          </a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-header">
+          <h2>USEEIO GHG Sources Disaggregation</h2>
+          <span class="badge">Scope 1 Sources</span>
+        </div>
+        <p class="card-description">
+          Explore direct emissions (Scope 1) by greenhouse gas source, activity type, and fuel. 
+          Break down sector emissions into combustion, processes, and fugitive sources.
+        </p>
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">403</span>
+            <span class="stat-label">USEEIO Sectors</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">218</span>
+            <span class="stat-label">GHG Sources</span>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="useeio_ghg_sources_disaggregation/" class="btn-primary">
+            Launch Visualization →
+          </a>
+          <a href="https://github.com/DecarbNexus/useeio_ghg_sources_disaggregation" class="btn-secondary" target="_blank" rel="noopener">
+            View on GitHub
+          </a>
+        </div>
+      </article>
+    </main>
+
+    <footer>
+      <p>
+        Data sourced from EPA GHGI, FlowSA, and USEEIO. 
+        All datasets are CC BY 4.0 licensed.
+      </p>
+      <p>
+        <a href="https://decarbnexus.com" target="_blank" rel="noopener">DecarbNexus LLC</a> | 
+        <a href="https://github.com/DecarbNexus" target="_blank" rel="noopener">GitHub</a>
+      </p>
+    </footer>
+  </body>
+</html>
